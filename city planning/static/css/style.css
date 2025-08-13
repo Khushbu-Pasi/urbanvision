@@ -1,0 +1,31 @@
+#map {
+    height: 600px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#suggestions {
+    min-height: 100px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.leaflet-popup-content {
+    min-width: 200px;
+}
+
+.selected-area {
+    fill: rgba(51, 136, 255, 0.2);
+    stroke: #3388ff;
+    stroke-width: 2;
+    stroke-opacity: 0.5;
+} 

@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  city-planning:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_APP=app.py
+      - FLASK_ENV=production
+    volumes:
+      - ./.env:/app/.env
+    networks:
+      - app-network
+
+  # Example of another service that might use city-planning
+  other-app:
+    image: python:3.9-slim
+    command: ["echo", "Replace with your other application service"]
+    depends_on:
+      - city-planning
+    networks:
+      - app-network
+    # Uncomment and modify for your actual application
+    # build: ../other-app
+    # ports:
+    #   - "8000:8000"
+
+networks:
+  app-network:
+    driver: bridge 
