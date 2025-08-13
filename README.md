@@ -36,4 +36,8 @@ python app.py
 - Map Integration: Leaflet.js
 - AI Model: HuggingFace Transformers
 
-- Styling: Bootstrap 5 
+- Styling: Bootstrap 5
+- <img width="1881" height="896" alt="Screenshot 2025-02-04 014538" src="https://github.com/user-attachments/assets/659d42a4-f161-4fea-a55f-0b2783d38cda" />
+
+<img width="1890" height="874" alt="Screenshot 2025-02-04 014452" src="https://github.com/user-attachments/assets/5d8664e1-1d95-496f-bd5d-1a54f3ad6299" />
+
